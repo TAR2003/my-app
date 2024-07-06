@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'segoe': ['"Segoe UI"', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        'times': ['"Times New Roman"', 'Times', 'serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -14,5 +18,6 @@ module.exports = {
       },
     },
   },
+
   plugins: [],
 };
