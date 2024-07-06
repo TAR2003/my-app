@@ -2,6 +2,7 @@ import React from "react";
 import notFound from "./not-found";
 import { stringify } from "postcss";
 import { Metadata } from "next";
+import "@/styles/globals.css";
 
 export const generateMetadata = ({ params }) => {
   return {

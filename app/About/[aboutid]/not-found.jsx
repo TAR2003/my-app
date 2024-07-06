@@ -1,5 +1,6 @@
 import React from "react";
 import notFound1 from "@/app/not-found";
+import "@/styles/globals.css";
 
 const notFound = (params) => {
   return (
