@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="font-segoe">
       <h1 className="font-segoe font-bold">Home Page </h1>
-      <h2>How are you </h2>
+      <h2>How are you frined? </h2>
       <div className="justify-center items-center">
         <Image
           className="justify-center"
