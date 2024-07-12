@@ -1,5 +1,6 @@
 
 import Link from "next/link"
+import "@/styles/globals.css";
 
 export const metadata = {
   title: 'Template project',
@@ -17,9 +18,8 @@ export default function RootLayout({ children }) {
           <Link href={"/About"} className="pr-4">Click to go to About</Link>
           <Link href={"/"}>Click to go to Home</Link>
         </header>
-        <div className="text-center font-bold font-segoe text-2xl text-red-600">
-          {children}
-        </div>
+        {children}
+
 
         <footer className="p-4 bg-blue-200">
           <p className="font-segoe text-green-800 text-center">footer</p>
